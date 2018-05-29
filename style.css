@@ -1,0 +1,119 @@
+.error {
+	/*color: #FF0000;*/;
+	font-size: .5em;
+}
+
+#header {
+	font-size: 3em;
+	font-family: "Helvetica", Gadget, sans-serif;
+	color: white;
+	background-image: url("wizard.png"); 
+}
+
+#menu {
+	background-image: url("tile2.png");  
+	/*
+	border-style: dashed;
+	border-color: purple;
+	*/
+	font-family: "Helvetica", Gadget, sans-serif;
+	text-align: center;
+}
+
+#content{
+	background-image: url("tile.png"); 
+	font-family: "Times New Roman", Times, serif;
+}
+
+#formField{
+	color: #063D00;
+	background-image: url("tile.png");  '
+	/*
+	border-style: dashed;
+	border-color: orange;
+	*/
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#footer {
+	font-size: 1.25em;
+	background-image: url("tile3.png"); 
+	font-family: "Helvetica", Gadget, sans-serif;
+	/*
+	border-style: dashed;
+	border-color: red
+	*/
+	text-align: center;
+}
+#tinyText {
+	font-size: .5em;
+}
+
+#navLink {
+	font-size: 1.75em;
+	background-image: url("tile3.png"); 
+	font-family: "Helvetica", Gadget, sans-serif;
+}
+#singleLink {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+img {
+	margin: 0px 3px 0px 3px;
+}
+
+
+a:link, a:visited {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-decoration: none;
+	color: #111100;
+	background-color: lavender;
+	border-style: solid;
+	border-color: darkblue;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	background-color: red;
+}
+
+input[type=text], input[type=password]{
+    padding: 3px 6px 0px 3px;
+    border: 1px solid blue;
+	border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+select[type=text] {
+    margin: 0px 6px 3px 0px;
+	border: 1px solid blue;
+	border-radius: 2px;
+}
+/*
+input[type=radio] {
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+*/
+input[type=submit], input[type=button] {
+    margin: 3px 3px 3px 1px;
+}
+
+input[type=text]:focus {
+    background-color: lightgreen;
+}
+
+
+label {
+	font-size: .75em;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+body {
+	background-image: url("tile2.png");
+}
+
+p {
+	padding: .5em .5em .5em .5em;
+}
